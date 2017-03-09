@@ -1,18 +1,18 @@
-# v8-profiler-trigger
+# v8-profiler-trigger-electron
 
 > Trigger CPU profile recording or heap snapshots for node apps using keyboard
 shortcuts.
 
-[![NPM Badge](https://nodei.co/npm/v8-profiler-trigger.png?downloads=true)](https://www.npmjs.com/package/v8-profiler-trigger)
+[![NPM Badge](https://nodei.co/npm/v8-profiler-trigger-electron.png?downloads=true)](https://www.npmjs.com/package/v8-profiler-trigger-electron)
 
 **Taking a heap snapshot**
 
 ![Demo](docs/demo.gif)
 
-1. Start v8-profiler-trigger once in your app
+1. Start v8-profiler-trigger-electron once in your app
 
   ```js
-  const v8ProfilerTrigger = require('v8-profiler-trigger');
+  const v8ProfilerTrigger = require('v8-profiler-trigger-electron');
   v8ProfilerTrigger();
   ```
 
@@ -26,7 +26,7 @@ shortcuts.
 ## Install
 
 ```bash
-npm install v8-profiler-trigger --save-dev
+npm install v8-profiler-trigger-electron --save-dev
 ```
 
 ## API
