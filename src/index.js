@@ -2,7 +2,7 @@ const _ = require('lodash');
 const BPromise = require('bluebird');
 const chalk = require('chalk');
 const fs = BPromise.promisifyAll(require('fs'));
-const profiler = BPromise.promisifyAll(require('v8-profiler'));
+const profiler = BPromise.promisifyAll(require('@risingstack/v8-profiler'));
 
 function listen(opts) {
   opts = _.merge({
