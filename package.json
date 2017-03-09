@@ -1,11 +1,11 @@
 {
-  "name": "v8-profiler-trigger",
+  "name": "v8-profiler-trigger-electron",
   "version": "1.0.0",
   "description": "Trigger CPU profile recording or heap snapshots for node apps using keyboard shortcuts",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kimmobrunfeldt/v8-profiler-trigger.git"
+    "url": "git+https://github.com/kimmobrunfeldt/v8-profiler-trigger-electron.git"
   },
   "keywords": [
     "v8",
@@ -18,9 +18,9 @@
   "author": "Kimmo Brunfeldt",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kimmobrunfeldt/v8-profiler-trigger/issues"
+    "url": "https://github.com/kimmobrunfeldt/v8-profiler-trigger-electron/issues"
   },
-  "homepage": "https://github.com/kimmobrunfeldt/v8-profiler-trigger#readme",
+  "homepage": "https://github.com/kimmobrunfeldt/v8-profiler-trigger-electron#readme",
   "dependencies": {
     "bluebird": "^3.4.6",
     "chalk": "^1.1.3",
